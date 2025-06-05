@@ -32,26 +32,14 @@ KTDB(국토교통부 대중교통정보시스템)에서 제공한 공공 데이�
 | charset-normalizer | 3.4.2 |
 | idna     | 3.10 |
 
-## 📌 Docker 이미지 설치 방법 (Docker & Git 설치된 환경 기준)
+## 📌 Docker 이미지 설치 방법
 
-### 1. Docker Hub에서 이미지 다운로드
-
+### Docker Hub에서 이미지 다운로드
+이미지 다운로드 및 태그 형식 변경
 ```bash
-docker pull <image_name>:<tag>
+docker pull rapa0142/final_2021040026:v1
+docker tag rapa0142/final_2021040026:v1 final_2021040026:v1
 ```
-
-### 2. tar 파일에서 이미지 불러오기
-
-```bash
-docker load -i <image_tar_file_name>.tar
-```
-
-### 3. Dockerfile 기반 이미지 빌드
-
-```bash
-docker build -t <image_name>:<tag> .
-```
-
 ---
 
 ## 📌 Docker 컨테이너 생성 및 실행
@@ -114,4 +102,3 @@ docker rmi final_2021040026:v1
 
 - 데이터 출처: [KTDB (https://www.ktdb.go.kr)](https://www.ktdb.go.kr)
 - 정제 도구: [gtfsclean](https://github.com/public-transport/gtfsclean)
-- 기반 오픈소스: [transitous](https://github.com/public-transport/transitous)
