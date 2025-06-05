@@ -63,9 +63,11 @@ docker run -it final_2021040026:v1
 ### 컨테이너 안에서 다음 명령을 실행하세요:
 
 ```bash
-cd /home/사용자명/final_2021040026
 python3 src/fetch.py feeds/kr.json
 ```
+![화면 캡처 2025-06-05 090649](https://github.com/user-attachments/assets/42112298-085f-4658-9f6b-5a5af32fffe5)
+
+kr.json에 대해 `gtfsclean` 도구를 활용한 필드 구조, 참조 무결성, 규격 오류 검증이 완료된 것을 알 수 있습니다.
 
 정제된 GTFS 파일은 `/out/` 디렉토리에 생성됩니다.
 
