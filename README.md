@@ -19,7 +19,15 @@
 - ✅ **자동화 스크립트 적용**: `fetch.py`를 통한 GTFS fetch/postprocess 자동화
 
 
-생성된 GTFS .zip 파일은 Dropbox를 통해 공유되었으며, 직접적인 URL 다운로드를 통해 fetch.py 스크립트에서 검증 테스트를 완료했습니다.
+수정하여 생성된 GTFS .zip 파일은 개인 Dropbox를 통해 공유하였으며, 직접적인 URL 다운로드를 통한 fetch.py 스크립트에서의 검증 테스트를 완료했습니다.
+['한국 GTFS'](https://www.dropbox.com/scl/fi/l1rnl88xnegpmiuy44kmc/GTFS_DataSet.zip?rlkey=jub5anlfpsdoi9mgfy4qp7x9w&dl=1)
+
+
+**GTFS 파일 형식(e.g. stop.txt)**
+
+
+![image](https://github.com/user-attachments/assets/7226036d-f4fe-44af-b5ff-78e874035132)
+
 
 ## 📌 Requirements
 
