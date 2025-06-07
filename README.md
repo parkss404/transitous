@@ -33,11 +33,11 @@
 
 | | 버전 |
 |-------------|------|
-| Python      | 3.11 (이미지: `python:3.11-slim`) |
+| Python      | 3.11 |
 | git         | 2.39.5 |
 | wget        | 1.21.3 |
 | unzip       | 6.00 |
-| gtfsclean   | snapshot-4 (GitHub release 제공 바이너리) |
+| gtfsclean   | snapshot-4 |
 | requests | 2.32.3 |
 | urllib3  | 2.4.0 |
 | certifi  | 2025.4.26 |
